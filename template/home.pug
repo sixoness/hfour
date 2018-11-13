@@ -1,0 +1,625 @@
+
+extends layout
+
+block content
+	include lib/header	
+	.wk_index_main
+		// page1
+		.section.page1
+			.wk_slide-wrap
+				ul
+					li#wk_s1.wk_selected
+						.wk_banner
+						.wk_wrap
+							.wk_banner13
+								img(src='/hfour/images/home/banner13.png')
+							.wk_banner12
+								img(src='/hfour/images/home/banner12.png')
+							.wk_banner14
+								img(src='/hfour/images/home/banner14.png')
+					li#wk_s2
+						.wk_banner
+						.wk_wrap
+							.wk_banner22
+								img(src='/hfour/images/home/banner22.png')
+							.wk_banner23
+								img(src='/hfour/images/home/banner23.png')
+							.wk_banner24
+								a(href='#', target='_blank') 了解更多
+					li#wk_s3
+						.wk_banner
+						.wk_wrap
+							.wk_banner32
+								img(src='/hfour/images/home/banner32.png')
+							.wk_banner33
+								img(src='/hfour/images/home/banner33.png')
+			.wk_arrow
+				a(href='#service')
+					img(src='/hfour/images/home/ico3.png')
+			.wk_slide-nav-wrap
+				#wk_slide-nav
+					ul
+						li.wk_nav-line
+						li.wk_nav-bullet-container.active(data-index='0')
+							a.nav-link(href='javascript:void(0)')
+								.nav-bullet
+								.nav-text 高端定制开发
+						li.wk_nav-line
+						li.wk_nav-bullet-container(data-index='1')
+							a.nav-link(href='javascript:void(0)')
+								.nav-bullet
+								.nav-text 互联网整合营销
+						li.wk_nav-line
+						li.wk_nav-bullet-container(data-index='2')
+							a.nav-link(href='javascript:void(0)')
+								.nav-bullet
+								.nav-text 响应式网站
+						li.wk_nav-line
+		// page2
+		.section.page2
+			.wk_fwxm
+				ul
+					li.wk_li1
+						.wk_fwxm_bg
+						.wk_fwxm_main
+							.wk_fwxm_ico
+							h2 高端网站设计制作
+							p DESIGN CUSTOM
+							.wk_fwxm_des 周末设计团队凭借多年的行业经验为企业量身定制，让您的企业在残酷的网络竞争中脱颖而出，立于不败之地。
+							.wk_ljzx
+								a(href='#', target='_blank') 立即咨询
+					li.wk_li2
+						.wk_fwxm_bg
+						.wk_fwxm_main
+							.wk_fwxm_ico
+							h2 网络运营与推广
+							p NETWORK OPERATIONS
+							.wk_fwxm_des 专注于高品质网络品牌运营推广服务，在网络中树立企业品牌形象，提高搜索关键词转换率，以及多终端广告展现！
+							.wk_ljzx
+								a(href='#', target='_blank') 立即咨询
+					li.wk_li3
+						.wk_fwxm_bg
+						.wk_fwxm_main
+							.wk_fwxm_ico
+							h2 HTML5响应式网站开发
+							p RESPONSIVE WEBSITE
+							.wk_fwxm_des HTML5+CSS3设计制作的同时兼容手机和IPAD等触屏设备分辨率，达到最优访问效果，网站数据同步各终端。
+							.wk_ljzx
+								a(href='#', target='_blank') 立即咨询
+					li.wk_li4
+						.wk_fwxm_bg
+						.wk_fwxm_main
+							.wk_fwxm_ico
+							h2 移动端手机网站与APP
+							p MOBILE WEBSITE
+							.wk_fwxm_des 专注移动端手机网站设计、微网站、手机APP定制开发，创造有活力的品牌网站，在移动互联网市场中取得先机。
+							.wk_ljzx
+								a(href='#', target='_blank') 立即咨询
+		// page3
+		.section.page3
+			.case
+				h2
+					img(src='/hfour/images/home/case_title.png')
+				h2.wk_h2
+					img(src='/hfour/images/home/case_title1.png')
+				.wk_btndiv
+					a.abtn.aleft(href='javascript:void(0);')
+					a.abtn.aright(href='javascript:void(0);')
+				.wk_scrollcontainer
+					ul
+						li
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=168' ,title='携手正量网开创工程建设电商新未来')
+									.wk_case_img
+										img(src='/hfour/images/home/6c0f228f392ce0d9c633bd241fbedf02.jpg',  width='275', height='190', alt='携手正量网开创工程建设电商新未来')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=167',title='签约金蝶云创，助力企业SAAS服务')
+									.wk_case_img
+										img(src='/hfour/images/home/6b81028c2a08beef0e644f29090accdd.jpg', width='275', height='190', alt='签约金蝶云创，助力企业SAAS服务')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=166' ,title='硅谷明星教育团队米豆教育')
+									.wk_case_img
+										img(src='/hfour/images/home/8feca31f3756f8a38c9c69dff0178adb.jpg', width='275', height='190', alt='硅谷明星教育团队米豆教育')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='',title='iPin打造的图片社区app')
+									.wk_case_img
+										img(src='/hfour/images/home/9058970ef2c0394fd2149a1bf386793d.jpg', width='275', height='190', alt='iPin打造的图片社区app')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='', ,title='我开始健身pad端app')
+									.wk_case_img
+										img(src='/hfour/images/home/bd10ada61a7a5adcb2742dbbcdc15fb1.jpg',  width='275', height='190', alt='我开始健身pad端app')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=163' ,title='优品汇手机助手')
+									.wk_case_img
+										img(src='/hfour/images/home/c8690747c5dd7b0abb9a6ba009a3600f.jpg',  width='275', height='190', alt='优品汇手机助手')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=162' ,title='为律生活打造在线法律服务平台')
+									.wk_case_img
+										img(src='/hfour/images/home/875a7f0c1108be6f7fc4e22ec855cb22.jpg', width='275', height='190', alt='为律生活打造在线法律服务平台')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=161' ,title='Jackery app')
+									.wk_case_img
+										img(src='/hfour/images/home/203dba933ba7a845e4d5b74c316c1646.jpg', width='275', height='190', alt='Jackery app')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+						li
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=165', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=165', ,title='四维图新 - 趣逛地图')
+									.wk_case_img
+										img(src='/hfour/images/home/259fe8c9d946f110bf69985cbc6791de.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/25/259fe8c9d946f110bf69985cbc6791de.jpg', width='275', height='190', alt='四维图新 - 趣逛地图')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=159', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=159', ,title='零担速配APP案例')
+									.wk_case_img
+										img(src='/hfour/images/home/3a7de1bf2a011280174663bf208353d4.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/3a/3a7de1bf2a011280174663bf208353d4.jpg', width='275', height='190', alt='零担速配APP案例')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=158', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=158', ,title='云图是互联网大数据的聚合平台')
+									.wk_case_img
+										img(src='/hfour/images/home/65b1c4a202357472f3df50d3507bbc05.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/65/65b1c4a202357472f3df50d3507bbc05.jpg', width='275', height='190', alt='云图是互联网大数据的聚合平台')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=157', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=157', ,title='vivo Xplay5双曲面屏')
+									.wk_case_img
+										img(src='/hfour/images/home/46cb81fce5f946f28b0e12a4101e7873.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/46/46cb81fce5f946f28b0e12a4101e7873.jpg', width='275', height='190', alt='vivo Xplay5双曲面屏')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=155', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=155', ,title='PaPa手机投影评测 机身小巧 功能太单一')
+									.wk_case_img
+										img(src='/hfour/images/home/0b9b0527ff6283fea2a408687dac6795.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/0b/0b9b0527ff6283fea2a408687dac6795.jpg', width='275', height='190', alt='PaPa手机投影评测 机身小巧 功能太单一')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=153', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=153', ,title='三星S7常亮屏幕体验：黑色壁纸下最省电')
+									.wk_case_img
+										img(src='/hfour/images/home/0a505657910f345e5b76b2eee3455335.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/0a/0a505657910f345e5b76b2eee3455335.jpg', width='275', height='190', alt='三星S7常亮屏幕体验：黑色壁纸下最省电')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=154', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=154', ,title='大疆Phantom 4体验 可轻松躲避障碍物和人')
+									.wk_case_img
+										img(src='/hfour/images/home/90d63dc507727ec37b0448ecefa4e6e9.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/90/90d63dc507727ec37b0448ecefa4e6e9.jpg', width='275', height='190', alt='大疆Phantom 4体验 可轻松躲避障碍物和人')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=151', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=151', ,title='B&O版HP EliteBook Folio 1020笔记本体验')
+									.wk_case_img
+										img(src='/hfour/images/home/f04d8b2ec9ca09f81ad188dbed57cb80.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/f0/f04d8b2ec9ca09f81ad188dbed57cb80.jpg', width='275', height='190', alt='B&O版HP EliteBook Folio 1020笔记本体验')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+						li
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=152', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=152', ,title='LG G5新旗舰上手体验 模块化设计最具创意')
+									.wk_case_img
+										img(src='/hfour/images/home/212ed93aaf39d82a3951b1cb3cd66afd.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/21/212ed93aaf39d82a3951b1cb3cd66afd.jpg', width='275', height='190', alt='LG G5新旗舰上手体验 模块化设计最具创意')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=149',title='指纹识别')
+									.wk_case_img
+										img(src='/hfour/images/home/60b09a9728f5511c1bf78c760ac18f82.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/60/60b09a9728f5511c1bf78c760ac18f82.jpg', width='275', height='190', alt='指纹识别')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=145', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=145', ,title='DingDong青春版音箱评测 易用但App细节差')
+									.wk_case_img
+										img(src='/hfour/images/home/25e7fdcc03ea3c1d6b802db64c7a1939.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/25/25e7fdcc03ea3c1d6b802db64c7a1939.jpg', width='275', height='190', alt='DingDong青春版音箱评测 易用但App细节差')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=39', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=39', ,title='漳州云霄旅行攻略')
+									.wk_case_img
+										img(src='/hfour/images/home/d2ec5c1d5346643dbd59138b2f90d0da.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/d2/d2ec5c1d5346643dbd59138b2f90d0da.jpg', width='275', height='190', alt='漳州云霄旅行攻略')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=36', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=36', ,title='千年流转的美丽')
+									.wk_case_img
+										img(src='/hfour/images/home/13addef6545a317cff6844c430e1ff61.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/13/13addef6545a317cff6844c430e1ff61.jpg', width='275', height='190', alt='千年流转的美丽')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=34', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=34', ,title='安福武功山风景区')
+									.wk_case_img
+										img(src='/hfour/images/home/1d07be4d4137686ca0720bd8abfc912d.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/1d/1d07be4d4137686ca0720bd8abfc912d.jpg', width='275', height='190', alt='安福武功山风景区')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=33', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=33', ,title='看中国最美的高山草甸')
+									.wk_case_img
+										img(src='/hfour/images/home/b0a4a648a0f70aad3b8ed588a62f0df2.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/b0/b0a4a648a0f70aad3b8ed588a62f0df2.jpg', width='275', height='190', alt='看中国最美的高山草甸')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+							.wk_case_list
+								a(href='portal.php-mod=view&aid=31', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=31', ,title='瑶坪庄园')
+									.wk_case_img
+										img(src='/hfour/images/home/2104bee77154c7aa8edfc05e016b864c.jpg', tppabs='http://115.29.97.50/week_jiaohu/data/attachment/block/21/2104bee77154c7aa8edfc05e016b864c.jpg', width='275', height='190', alt='瑶坪庄园')
+									.wk_case_ico
+									.wk_case_xian
+										span.wk_span_1
+										span.wk_span_2
+										span.wk_span_3
+										span.wk_span_4
+		// page4
+		.section.page4
+			.wk_about
+				h2
+					img(src='/hfour/images/home/about_title.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/about_title.png')
+				h2.wk_h2
+					img(src='/hfour/images/home/about_title1.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/about_title1.png')
+				#wk_about_menu.wk_about_menu
+					a.active 简介
+					a 动态
+					a 历程
+				#wk_about_div.wk_about_div
+					.wk_about_main.wk_aaa
+						.wk_about_left
+							img(src='/hfour/images/home/about_img.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/about_img.png')
+						.wk_about_right
+							.wk_about_top
+								a
+									img(src='/hfour/images/home/about_ico1.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/about_ico1.png')
+								a
+									img(src='/hfour/images/home/about_ico2.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/about_ico2.png')
+								a
+									img(src='/hfour/images/home/about_ico3.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/about_ico3.png')
+								a(style='margin-right:0;')
+									img(src='/hfour/images/home/about_ico4.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/about_ico4.png')
+								.clear
+							.wk_about_des
+								| 周末设计是集品牌策划、网站开发、互动传媒服务于一体的顾问式互联网设计机构，成立于2012年的周末工作室为前身。凭借多年的实战经验和项目积累，以周末品牌的全新形象完成从工作室到专业设计机构的升级转变。
+								.wk_about_sec
+									| 8年品牌网站策划与设计经验和丰富的团队协作经验，迄今服务客户800+；团队成员均有5年以上的项目经验，能够把握国际主流设计风格和创新理念；美观大气精细设计的同时注重用户体验，创造有价值的品牌推广营销，为企业快速融入互联网经济打造完美方案。
+					//- .wk_news_list.wk_aaa
+						ul
+							li
+								dl
+									dt 2016-03-15
+								h4
+									a(href='portal.php-mod=view&aid=81', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=81', title='竹木的小器盛水，颇具中式风情', target='_blank') 竹木的小器盛水，颇具中式风情
+								.wk_news_des 众所周知，温泉是用来泡汤养生的。能够直接喝得温泉，目前经历过两处。一处是多年前在捷克的KV小镇，有精致的温泉杯从龙头里接出...
+								.wk_news_more
+									a(href='portal.php-mod=view&aid=81', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=81', title='阅读更多', target='_blank')
+							li
+								dl
+									dt 2016-03-15
+								h4
+									a(href='portal.php-mod=view&aid=80', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=80', title='怀胎井，是人气最高的一个泉眼', target='_blank') 怀胎井，是人气最高的一个泉眼
+								.wk_news_des 评论怀胎井出水温度88℃，含有氧离子、重碳离子、氯离子、硫酸根离子、钠离子、硫化氢离子和可溶性硅等成分，为氡矿泉，具有促进...
+								.wk_news_more
+									a(href='portal.php-mod=view&aid=80', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=80', title='阅读更多', target='_blank')
+							li
+								dl
+									dt 2016-03-15
+								h4
+									a(href='portal.php-mod=view&aid=79', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=79', title='岿然静止，却浓重深厚', target='_blank') 岿然静止，却浓重深厚
+								.wk_news_des 评论顺着栈道一直前行，便可抵达著名的华泉裙。这是一块巨大的石块，因为不同成分的泉水均汇集流经此石，不同的化学成分与矿物质...
+								.wk_news_more
+									a(href='portal.php-mod=view&aid=79', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=79', title='阅读更多', target='_blank')
+							li
+								dl
+									dt 2016-03-15
+								h4
+									a(href='portal.php-mod=view&aid=78', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=78', title='"蛤蟆吐水"', target='_blank') "蛤蟆吐水"
+								.wk_news_des 蛤蟆嘴位于澡塘河瀑布右侧岩壁上，温水从岩壁上程脉动式斜喷而出，长年累月，沉淀了许多钙华呈白色，周围又生有许多高温澡类呈绿...
+								.wk_news_more
+									a(href='portal.php-mod=view&aid=78', tppabs='http://115.29.97.50/week_jiaohu/portal.php?mod=view&aid=78', title='阅读更多', target='_blank')
+						// 首页-新闻动态-内部调用代码设置位置
+					//- .wk_history.wk_aaa
+						.wk_blk_18
+							a.LeftBotton(onmousedown='ISL_GoUp_1()', onmouseup='ISL_StopUp_1()', onmouseout='ISL_StopUp_1()', href='javascript:void(0);', target='_self')
+							#ISL_Cont_11.wk_pcont
+								.ScrCont
+									#List1_1
+										#List1_1
+											.wk_fzlc_s
+												h4 2009年11月
+												.wk_his_ico
+												dl
+													dt
+														img(src='/hfour/images/home/history_img1.jpg', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/history_img1.jpg')
+													dd 2009年，三个热爱设计工作的年轻人成立了周末网页设计工作室...
+											.wk_fzlc_b
+												h4 2009年5月
+												.wk_his_ico
+												dl
+													dt
+														img(src='/hfour/images/home/history_img2.jpg', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/history_img2.jpg')
+													dd
+														| 经过近两年来不断的创新探索和稳定发展,逐渐积累了丰富的客户资源，至今已服务客户300余家
+														| ...
+											.wk_fzlc_s
+												h4 2010年7月
+												.wk_his_ico
+												dl
+													dt
+														img(src='/hfour/images/home/history_img3.jpg', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/history_img3.jpg')
+													dd 随着人员和客户资源的不断增加，逐步以公司的模式进行运营...
+											.wk_fzlc_b
+												h4 2012年12月
+												.wk_his_ico
+												dl
+													dt
+														img(src='/hfour/images/home/history_img4.jpg', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/history_img4.jpg')
+													dd
+														| 服务客户已超过600余家，公司产品研发力度持续增强，手机网站和PC客户端、移动互联
+														| 网...
+											.wk_fzlc_s
+												h4 2013年10月
+												.wk_his_ico
+												dl
+													dt
+														img(src='/hfour/images/home/history_img5.jpg', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/history_img5.jpg')
+													dd 公司更名为周末设计技术有限公司，并与众多知名企业进行合作...
+											.wk_fzlc_b
+												h4 2014年5月
+												.wk_his_ico
+												dl
+													dt
+														img(src='/hfour/images/home/history_img6.jpg', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/history_img6.jpg')
+													dd
+														| 周末设计与山东智卓软件公司合并，打造集网站、APP与软件开发为一体的综合型科技产业公
+														| 司...
+											.wk_fzlc_s
+												h4 2015年2月
+												.wk_his_ico
+												dl
+													dt
+														img(src='/hfour/images/home/history_img7.jpg', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/history_img7.jpg')
+													dd 与铭艺影视传媒公司合作，共同为客户提供互联网影视传媒服务...
+											.wk_fzlc_b
+												h4 2015年10月
+												.wk_his_ico
+												dl
+													dt
+														img(src='/hfour/images/home/history_img8.jpg', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/history_img8.jpg')
+													dd
+														| 致力于互联网+服务，打造品牌设计建设与网络推广营销综合服务新模式，更好的为客户提供全
+														| 方位的互联网服务...
+										// 首页-发展历程-内部调用代码设置位置
+									#List2_1
+							a.RightBotton(onmousedown='ISL_GoDown_1()', onmouseup='ISL_StopDown_1()', onmouseout='ISL_StopDown_1()', href='javascript:void(0);', target='_self')
+						.c
+		// page5
+		.section.page5
+			.wk_service
+				h2
+					img(src='/hfour/images/home/service_title.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_title.png')
+				h2.wk_h2
+					img(src='/hfour/images/home/service_title1.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_title1.png')
+				.wk_service_xian
+				.wk_service_main
+					ul
+						li
+							img(src='/hfour/images/home/service_img1.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img1.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img2.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img2.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img3.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img3.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img4.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img4.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img5.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img5.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img6.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img6.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img7.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img7.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img8.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img8.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img9.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img9.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img10.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img10.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img11.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img11.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img12.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img12.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img13.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img13.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img14.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img14.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+						li
+							img(src='/hfour/images/home/service_img15.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/service_img15.png')
+							span.wk_span_1
+							span.wk_span_2
+							span.wk_span_3
+							span.wk_span_4
+		// page6
+		.section.page6
+							.wk_contact
+								.wk_contact_left
+									img(src='/hfour/images/home/contact_img.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/contact_img.png')
+								.wk_contact_left1
+									img(src='/hfour/images/home/contact_img1.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/contact_img1.png')
+								.wk_contact_right
+									h2
+										img(src='/hfour/images/home/contact_title.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/contact_title.png')
+									ul.wk_cont_div
+										li.wk_serve-ico-kf
+											| 业务咨询：
+											span.wk_cont_a
+												img(src='/hfour/images/home/cont_a.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/cont_a.png')
+											a(href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=441576729&site=qq&menu=yes  \n\n该文件未被 Teleport Pro 下载，因为 它位于起始地址以设置的边界以外的域或路径中。  \n\n你想要从服务器打开它吗?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=441576729&site=qq&menu=yes'", tppabs='http://wpa.qq.com/msgrd?v=3&uin=441576729&site=qq&menu=yes', target='_blank')
+												| 441576729
+												| 【点击咨询】
+										li.wk_serve-ico-kf
+											| 技术服务：
+											span.wk_cont_a
+												img(src='/hfour/images/home/cont_a.png', tppabs='http://115.29.97.50/week_jiaohu//hfour/images/home/cont_a.png')
+											a(href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=441576729&site=qq&menu=yes  \n\n该文件未被 Teleport Pro 下载，因为 它位于起始地址以设置的边界以外的域或路径中。  \n\n你想要从服务器打开它吗?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=441576729&site=qq&menu=yes'", tppabs='http://wpa.qq.com/msgrd?v=3&uin=441576729&site=qq&menu=yes', target='_blank')
+												| 441576729
+												| 【点击咨询】
+										li
+											span.wk_cont_c
+											| discuz@haoweek.com
+										li
+											span.wk_cont_d
+											| 深圳市南山区 高新科技园 中区一路腾讯大厦
+		include lib/footer
+

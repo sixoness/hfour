@@ -1,0 +1,122 @@
+#nv_portal.pg_index(onkeydown='if(event.keyCode==27) return false;', oncontextmenu='self.event.returnValue=false;')
+	#append_parent
+	#ajaxwaitid
+	#toptb.cl(style='display:none;')
+	#hd(style='background:#FFF; height:60px; border-bottom:1px solid #E6E6E6; ')
+		.clear
+		#week_nav
+			.wk_navwp
+				.wk_lonav
+					.wk_logo
+						h2
+							a(href='/', title='交互式站点')
+								img(src='/hfour/images/header/logo.png', alt='交互式站点', border='0')
+					.wk_inav
+						ul.nav
+							li#mn_portal.a
+								a(href='/' hidefocus='true', title='Portal')
+									| 企业首页
+									span Portal
+							li#mn_P2(onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})")
+								a(href='news', hidefocus='true') 新闻资讯
+							li#mn_P3(onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})")
+								a(href='product', hidefocus='true') 产品中心
+							li#mn_P4(onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})")
+								a(href='cases', hidefocus='true') 项目案例
+							li#mn_P5(onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})")
+								a(href='service', hidefocus='true') 服务中心
+							li#mn_P1(onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})")
+								a(href="about" hidefocus='true') 关于我们
+							li#mn_forum(onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})")
+								a(href='bbs', hidefocus='true', title='BBS')
+									| 社区中心
+									span BBS
+							li#mn_N2b54
+								a(href="" hidefocus='true', title='模板唯一正销售地址', target='_blank', style='font-weight: bold;color: red')
+									| 正版购买
+									span 模板唯一正销售地址
+				.wk_idl
+					.week-header-log
+						ul.week-log
+							li.log-dd-trigger(style='display:block;')
+								a
+									img(src='/hfour/images/header/log.png', width='22', height='22', alt='log', style='border-radius:50%;')
+									img.week-arrow(src='/hfour/images/header/log-arrow.png', width='10', height='6')
+								.u-box(style='display:none;')
+								ul.log-dropdown(style='display:none;')
+									li
+										a.week-button.week-button-primary.center(href='javasript:;', style='color:#FFF !important;') 立即登录
+									li.signup-help
+										| 没有账号？ 
+										a(href="javascript:;", title='马上注册') 马上注册
+									li
+										hr.log-dd-sep
+									li
+										a(href='javascript:;' title='QQ登录')
+											span.i_qq
+											| QQ登录
+									li
+										a(href="javascript:;" title='微信登录')
+											span.i_wx
+											| 微信登录
+	
+	.sub_nav
+		ul#mn_P2_menu.p_pop.h_pop(style='display: none')
+			li
+				a(href='portal.php-mod=list&catid=11.htm',  hidefocus='true') 公司新闻
+			li
+				a(href='portal.php-mod=list&catid=12.htm', hidefocus='true') 行业新闻
+			li
+				a(href='portal.php-mod=list&catid=13.htm', hidefocus='true') 媒体新闻
+		ul#mn_P3_menu.p_pop.h_pop(style='display: none')
+			li
+				a(href='portal.php-mod=list&catid=14.htm',  hidefocus='true') 微信开发
+			li
+				a(href='portal.php-mod=list&catid=15.htm',  hidefocus='true') 移动APP
+			li
+				a(href='portal.php-mod=list&catid=16.htm', hidefocus='true') 软件界面
+			li
+				a(href='portal.php-mod=list&catid=17.htm', hidefocus='true') 电子商务
+		ul#mn_P4_menu.p_pop.h_pop(style='display: none')
+			li
+				a(href='portal.php-mod=list&catid=18.htm', hidefocus='true') 经典案例
+			li
+				a(href='portal.php-mod=list&catid=19.htm',  hidefocus='true') 最近案例
+		#mn_userapp_menu.p_pop.h_pop(style='display: none')
+		ul#mn_P5_menu.p_pop.h_pop(style='display: none')
+			li
+				a(href='portal.php-mod=list&catid=20.htm',hidefocus='true') 常见问题
+		ul#mn_P1_menu.p_pop.h_pop(style='display: none')
+			li
+				a(href='portal.php-mod=list&catid=7.htm', hidefocus='true') 企业文化
+			li
+				a(href='portal.php-mod=list&catid=8.htm',  hidefocus='true') 发展历程
+			li
+				a(href='portal.php-mod=list&catid=9.htm',  hidefocus='true') 诚聘英才
+			li
+				a(href='portal.php-mod=list&catid=10.htm', hidefocus='true') 联系我们
+		ul#mn_forum_menu.p_pop.h_pop(style='display: none')
+			li
+				a(href='forum.php-mod=forumdisplay&fid=41.htm',  hidefocus='true') 瀑布流
+			li
+				a(href='forum.php-mod=forumdisplay&fid=38.htm', hidefocus='true') 社区活动
+			li
+				a(href='forum.php-mod=guide.htm', hidefocus='true', title='Guide') 导读
+	#mu.cl
+		.wp
+
+	#wp.wp
+		style#diy_style.	
+	.clea
+
+
+
+block script
+	script.
+		window.jQuery && !window.handleHeaderProduct && (window.handleHeaderProduct = function () {
+			FOM(".log-dd-trigger").hover(function () {
+				FOM(".u-box").show(), FOM(".log-dropdown").show()
+			}, function () {
+				FOM(".u-box").hide(), FOM(".log-dropdown").hide()
+			});
+		}());

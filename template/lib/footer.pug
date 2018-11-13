@@ -1,0 +1,79 @@
+
+.section.fp-auto-height
+    .wk_footer_side
+        .wk_footer
+            | Copyright © 2016 
+            a(href='') Comsenz Inc.
+            |  All Rights Reserved. By 
+            a(href='javascript:;', title='Discuz!') Discuz!
+            em X3.2
+            a(title='Week Design By Haoweek.com') 技术支持:周末设计
+            br
+            | 备案号：
+            a(href='javascript:;', title='粤ICP备11006888号') 粤ICP备11006888号
+            a(href='javascript:if;', title='防水墙保卫网站远受侵害')
+                img(src='/hfour/images/footer/security.png')
+            a(href='javascript:if;', title='腾讯分析')
+                img(src='/hfour/images/footer/toss_11.gif')
+            span#tcss
+        
+.main-im
+    #open_im.open-im  
+    #im_main.im_main
+        #close_im.close-im
+            a(href='javascript:void(0);', title='����ر�')  
+        a.im-qq.qq-a(href='' title='在线QQ客服')
+            .qq-container
+            .qq-hover-c
+                img.img-qq(src='hfour/images/footer/qq.png', tppabs='http://115.29.97.50/week_jiaohu/hfour/images/footer//service/images/qq.png')
+            span QQ在线咨询
+        .im-tel
+            dt 售前咨询热线
+            dt.tel-num 400-888-8888
+            dt 售后服务热线
+            dt.tel-num 010-12345678
+        .im-footer(style='position:relative')
+            .weixing-container
+                .weixing-show
+                    .weixing-txt
+                        | 微信扫一扫
+                        br
+                        | 关注周末设计
+                        br
+                        | 获取更多精彩风格
+                    img.weixing-ma(src='hfour/images/footer/weixin.jpg', tppabs='http://115.29.97.50/week_jiaohu/hfour/images/footer//weixin.jpg')
+                    .weixing-sanjiao
+                    .weixing-sanjiao-big
+            .go-top
+                a(href='javascript:;', title='返回顶部')
+            div(style='clear:both')
+    #scrolltop
+        span(hidefocus='true')
+            a.scrolltopa(title='返回顶部', onclick="window.scrollTo('0','0')")
+                b 返回顶部
+    #discuz_tips(style='display:none;')
+
+
+block script
+    script.
+        FOM(function () {
+            FOM('#close_im').bind('click', function () {
+                FOM('#main-im').css("height", "0");
+                FOM('#im_main').hide();
+                FOM('#open_im').show();
+            });
+            FOM('#open_im').bind('click', function (e) {
+                FOM('#main-im').css("height", "272");
+                FOM('#im_main').show();
+                FOM(this).hide();
+            });
+            FOM('.go-top').bind('click', function () {
+                FOM(window).scrollTop(0);
+            });
+            FOM(".weixing-container").bind('mouseenter', function () {
+                FOM('.weixing-show').show();
+            })
+            FOM(".weixing-container").bind('mouseleave', function () {
+                FOM('.weixing-show').hide();
+            });
+        });

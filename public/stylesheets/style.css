@@ -1,0 +1,15 @@
+@import "nstyle.css";
+@import "default.css";
+@import "n-style.css";
+@import "newyear.css";
+@import "mystyle.css";
+@import "counter.css";
+.bitem {
+  position: unset !important;
+  width: 33% !important;
+  text-align: center !important;
+  float: left !important;
+}
+#wrapper {
+  height: 300px;
+}

@@ -1,0 +1,59 @@
+doctype html
+html
+	head
+		- let layout = { header: true, footer: true }
+		- title = ''
+
+		block vars
+
+		if title
+			title #{title} - #{site ? site.title : ''}
+		else
+			title #{site ? site.title : ''}
+
+		meta(name='keywords', content=keywords || site.keywords)
+		meta(name='description', content=description || site.description)
+
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
+		meta(name='renderer', content='webkit')
+
+		link(rel='stylesheet', href='/hfour/stylesheets/style.css')
+		
+
+		script(type='text/javascript', src='/hfour/javascripts/jquery-1.7.2.js')
+		script(type='text/javascript', src='/hfour/javascripts/pace.js')
+		script(type='text/javascript', src='/hfour/javascripts/jquery.fullpage.min.js')
+		script(type='text/javascript', src='/hfour/javascripts/addons.js')
+		script(type='text/javascript', src='/hfour/javascripts/banner.js')
+
+
+		
+		
+		
+		
+
+	
+		
+		
+
+		if site
+			!= site.code.header
+
+	body
+	
+
+		block content
+			
+		
+	
+	
+	
+	
+
+	
+
+	block script
+		
+
+	if site
+		!= site.code.footer
